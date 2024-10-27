@@ -1,0 +1,14 @@
+
+//Using HTTPS to launch application
+{
+"version": "0.2.0",
+"configurations": [
+    {
+        "name": "Launch Chrome HTTP",
+        "type": "pwa-chrome",
+        "request": "launch",
+        "url": "http://localhost/Movie_App",
+        "webRoot": "${workspaceFolder}"
+    }
+]
+}
