@@ -1,7 +1,24 @@
+<?php
+require_once('controller/user.php');
+require_once('controller/user_controller.php');
+
+$login_msg = '';
+
+if (isset($_POST['username']) & isset($_POST['pw'])) {
+    //login and password fields
+    if (UserController::validUser($_POST['username'],
+        $_POST['pw']))
+    {
+        $login_msg = 'Login Successful';
+    } else {
+        $login_msg = 'Failed login';
+    }
+}
+?>
 <html>
 <head>
     <title>Star Streamer Alyce Cooper</title>
-</head>
+
 
 <body>
     <h1>Star Streamer Alyce Cooper</h1>

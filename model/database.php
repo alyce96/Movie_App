@@ -59,20 +59,20 @@ class Database {
 
     
     //function to add movies to database 
-    public static function formatNewMovieQuery($title, $rating, $runtime, $platform, $genre) {
-        return $query = "INSERT INTO movielist (Title, )
-                VALUES ({$title}, {$rating}, {$runtime}, {$platform}, {$genre});"
+    //public static function formatNewMovieQuery($title, $rating, $runtime, $platform, $genre) {
+        //return $query = "INSERT INTO movielist (Title, )
+                //VALUES ({$title}, {$rating}, {$runtime}, {$platform}, {$genre});"
     
      //Adding movies to Database
-     $Marvels = formatNewMovieQuery('105min', 'Adventure', 'PG13', 'Disney+')
-     $Encanto = formatNewMovieQuery('102min', 'PG', 'Family', 'Disney+')
-     $Elemental = formatNewMovieQuery('101min', 'PG', 'Comedy', 'Hulu')
-     $Moana = formatNewMovieQuery('107min', 'TV-PG', 'Adventure', 'Netflix')
-     $Wish = formatNewMovieQuery('Frozen', '102min', 'TV-PG', 'AmazonPrime')
-     $Frozen = formatNewMovieQuery('102min', 'TV-PG', 'Adventure', 'Netflix')
-     $Mulan = formatNewMovieQuery('87min', 'G', 'Adventure', 'Disney+')
-     $UP = formatNewMovieQuery('96Min', 'G', 'Adventure', 'Hulu')
-     $Aladdin = formatNewMovieQuery('90min', 'G', 'Comedy', 'Disney+')
-     $Luca = formatNewMovieQuery('95min', 'PG', 'Adventure', 'Hulu')    
-    }
+     //$Marvels = formatNewMovieQuery('105min', 'Adventure', 'PG13', 'Disney+')
+     //$Encanto = formatNewMovieQuery('102min', 'PG', 'Family', 'Disney+')
+     //$Elemental = formatNewMovieQuery('101min', 'PG', 'Comedy', 'Hulu')
+     //$Moana = formatNewMovieQuery('107min', 'TV-PG', 'Adventure', 'Netflix')
+     //$Wish = formatNewMovieQuery('Frozen', '102min', 'TV-PG', 'AmazonPrime')
+     //$Frozen = formatNewMovieQuery('102min', 'TV-PG', 'Adventure', 'Netflix')
+     //$Mulan = formatNewMovieQuery('87min', 'G', 'Adventure', 'Disney+')
+     //$UP = formatNewMovieQuery('96Min', 'G', 'Adventure', 'Hulu')
+    // $Aladdin = formatNewMovieQuery('90min', 'G', 'Comedy', 'Disney+')
+     //$Luca = formatNewMovieQuery('95min', 'PG', 'Adventure', 'Hulu')    
+   // }
 }
