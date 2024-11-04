@@ -2,7 +2,7 @@
 require_once('controller/user.php');
 require_once('controller/user_controller.php');
 
-$login_msg = '';
+$login_msg = 'unknown';
 
 if (isset($_POST['username']) & isset($_POST['pw'])) {
     //login and password fields
@@ -29,6 +29,6 @@ if (isset($_POST['username']) & isset($_POST['pw'])) {
         <h3>Password: <input type="password" name="pw"></h3>
         <input type="submit" value="Login" name="login">
     </form>
-    <h2><php echo $login_msg; ?></h2>
+    <h2><?php echo $login_msg; ?></h2>
 </body>
 </html>
