@@ -2,9 +2,9 @@
 class Database {
     //DB connection paramaters
     private $host = 'localhost';
-    private $dbname = 'Movies';
-    private $username = "Mickey";
-    private $password = "Mouse";
+    private $dbname = 'Movielist';
+    private $username = "root";
+    private $password = "";
 
     //DB connection and error message
     private $conn;
@@ -58,6 +58,8 @@ class Database {
     }
 
     
+
+    
     //function to add movies to database 
     //public static function formatNewMovieQuery($title, $rating, $runtime, $platform, $genre) {
         //return $query = "INSERT INTO movielist (Title, )
@@ -68,7 +70,7 @@ class Database {
      //$Encanto = formatNewMovieQuery('102min', 'PG', 'Family', 'Disney+')
      //$Elemental = formatNewMovieQuery('101min', 'PG', 'Comedy', 'Hulu')
      //$Moana = formatNewMovieQuery('107min', 'TV-PG', 'Adventure', 'Netflix')
-     //$Wish = formatNewMovieQuery('Frozen', '102min', 'TV-PG', 'AmazonPrime')
+     //$Wish = formatNewMovieQuery('102min', 'TV-PG', 'Adventure', 'AmazonPrime')
      //$Frozen = formatNewMovieQuery('102min', 'TV-PG', 'Adventure', 'Netflix')
      //$Mulan = formatNewMovieQuery('87min', 'G', 'Adventure', 'Disney+')
      //$UP = formatNewMovieQuery('96Min', 'G', 'Adventure', 'Hulu')
